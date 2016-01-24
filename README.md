@@ -5,6 +5,6 @@ Raspberry Pi2 B HD video looper based on Steven Hickson's project (Raspbian)
 > (source on GitHub: https://github.com/StevenHickson/RPiVideoLooper)
 
 Added features:
-- overlay logo
-- m3u playlist
+- overlay logo (with pngview)
+- failsafe m3u playlist
 - nighty (chron job) FTP sync
