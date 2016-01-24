@@ -1,0 +1,20 @@
+This image is a video looper meant for exhibits and other continuous video use.
+The scripts run automatically on startup to fullscreen and have a minimal delay in between videos.
+
+To stop the playback run the following command:
+sudo /etc/init.d/videoloop stop
+
+To start the playback run the following command:
+sudo /etc/init.d/videoloop start
+
+To see if the playback is running, run the following command:
+sudo /etc/init.d/videoloop startus
+
+To add new videos, stop the service, then add the file to the videos folder in /home/pi/videos/
+Then restart the service.
+To delete videos, do the same.
+
+SSH is enabled with a username of pi and a password of raspberry. This should be changed for security purposes.
+
+For more help, see:
+http://stevenhickson.blogspot.com/

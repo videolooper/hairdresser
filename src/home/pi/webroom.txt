@@ -1,0 +1,17 @@
+- download latest VideoLooper image (so far: http://goo.gl/jwkjDo) 
+- “burn” the image on the SD card
+- boot the Raspberry Pi2 with the card, ssh pi@[its IP] (password: raspberry)
+- sudo raspi-config to expand the partition to SD’s size
+- change pi password: passwd
+- install lftp
+- install ntpdate
+- install mc
+- install pngview (https://goo.gl/GJCGjB)
+- sudo apt-get update
+- add mirror.sh to /home/pi
+- add tmp-videos to /home/pi
+- add logs/ftp and logs/rsync to /home/pi
+(from linux/osx: scp [path of this folder]/* pi@[raspi2’s IP]:/home/pi/)
+- check ownership (sudo chown -R pi:pi) & permissions (sudo chmod -R 755) for added files & directories
+- add to pi’s crontab mirror.sh @ midnight, every day (crontab -e)
+- edit /etc/init.d/asplashscreen (/etc/splash.png => /home/pi/webroom.png)

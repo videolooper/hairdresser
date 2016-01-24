@@ -1,0 +1,19 @@
+#EXTM3U
+#EXTINF:3,uno.mp4
+/Users/webroom/Desktop/raspi playlist/uno.mp4
+#EXTINF:10,due.mp4
+/Users/webroom/Desktop/raspi playlist/due.mp4
+#EXTINF:11,tre.mp4
+/Users/webroom/Desktop/raspi playlist/tre.mp4
+#EXTINF:14,quattro.mp4
+/Users/webroom/Desktop/raspi playlist/quattro.mp4
+#EXTINF:12,cinque.mp4
+/Users/webroom/Desktop/raspi playlist/cinque.mp4
+#EXTINF:9,sei.mp4
+/Users/webroom/Desktop/raspi playlist/sei.mp4
+#EXTINF:13,sette.mp4
+/Users/webroom/Desktop/raspi playlist/sette.mp4
+#EXTINF:13,otto.mp4
+/Users/webroom/Desktop/raspi playlist/otto.mp4
+#EXTINF:9,nove.mp4
+/Users/webroom/Desktop/raspi playlist/nove.mp4
