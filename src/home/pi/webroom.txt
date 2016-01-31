@@ -1,3 +1,5 @@
+GITHub: https://github.com/videolooper/hairdresser
+
 - download latest VideoLooper image (so far: http://goo.gl/jwkjDo) 
 - “burn” the image on the SD card
 - boot the Raspberry Pi2 with the card, ssh pi@[its IP] (password: raspberry)
