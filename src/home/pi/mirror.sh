@@ -54,6 +54,9 @@ printf "synchronizing tmp-videos with videos folder:\n" >> $LOGRSYNC
 rsync -avzh --delete /home/pi/tmp-videos/ /home/pi/videos >> $LOGRSYNC
 printf "\ndone.\n\n" >> $LOGRSYNC
 
+# rebooting for a fresh running machine :)
+# sudo shutdown -r now
+
 printf "removing 'update in progress' image ..." >> $LOGRSYNC
 sudo killall pngview >> $LOGRSYNC
 printf " ...done\n\n" >> $LOGRSYNC
