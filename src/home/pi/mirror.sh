@@ -42,10 +42,6 @@ printf "removing logo overlay ..." >> $LOGRSYNC
 sudo killall pngview >> $LOGRSYNC
 printf " ...done\n\n" >> $LOGRSYNC
 
-printf "removing logo overlay ..." >> $LOGRSYNC
-sudo killall pngview >> $LOGRSYNC
-printf " ...done\n\n" >> $LOGRSYNC
-
 printf "showing 'update in progress' image ..." >> $LOGRSYNC
 /home/pi/raspidmx-master/pngview/pngview -l 1 -x 0 -y 0 $UPDATEIMG &
 printf " ...done\n\n" >> $LOGRSYNC
